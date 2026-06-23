@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from app.schemas import StudentFeatures
+from schemas import StudentFeatures
 from pydantic import BaseModel
 from pathlib import Path
 import joblib
